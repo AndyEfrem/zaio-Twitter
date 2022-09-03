@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100%;
+    font-family: inherit;
+    border:#eff3f4 solid 0;
+}
+/*Side bar starts here*/
+
+.navbar{
+    width: 400px;
+    height: 100vh;
+    align-items: center; 
+    color: #0f1419;
+    border:#eff3f4 solid 0;
+    cursor: pointer;
+    padding-left: 50px;
+}
+
+.logo img{
+    width: 35px;
+    margin-top: 20px;
+    margin-left: 13px; 
+}
+
+.logo img :hover{
+    background-color: #e8f5fd;
+}
+.navbar :hover{
+    background-color:#e7e7e8;
+    border-radius: 300px;  
+}
+
+.sidebar-elements{
+    display: flex;
+}
+
+.sidebar-elements i{
+    padding: 20px;
+}
+
+.sidebar-elements h2{
+    font-weight: 500;
+    font-size: 22px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 21px;
+}
+.tweet_button{
+    height: 50px;
+    width: 85%;
+    border-radius: 30px;
+    color:white;
+    background-color: #1d9bf0;
+    margin-top: 20px;
+    border: none;
+    font-weight: 900;
+}
+/*Sidebar ended*/
+
+/*mid section*/
+.Twitter-post{
+    display: flex;
+    width: calc(100vw-400px);
+    height:100vh;
+    border:#eff3f4 solid 0.5px; 
+}
+
+.twitter-feeds{
+    width: 598px;
+    height: 100%;
+    border:#eff3f4 solid 0.5px;
+    padding-left: 16px;
+}
+
+h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.posting-section{
+    display: flex;
+    padding-top: 20px;
+}
+
+.posting-section .material-icons{
+    font-size: 55px;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    font-size: 18px;
+    padding: 9px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding-top:28px;
+    padding-left: 30px;
+    margin: 15px;
+}
+
+.material{
+    color: #1d9bf0;
+    font-size: 20px;  
+}
+
+.button button{
+    background: #1d9bf0;
+    opacity: 0.5;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 100%;
+    width: 86px;
+}
+/*mid section ends here*/
+
+/*Trending section*/
+
+.trending{
+    width: 400px;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
